@@ -61,7 +61,7 @@ Abordagem de conceitos introdutórios relacionados a bancos de dados relacionais
 ## Comandos SQL Básicos
     CREATE TABLE ALUNO (
          MATRICULA NUMERIC(10.0) NOT NULL,
-         NOME VARCHAR2(100) NOT NULL,
+         NOME VARCHAR(100) NOT NULL,
          CPF NUMERIC(14.0) NOT NULL,
          DATA_NASCIMENTO DATE NOT NULL
     );
