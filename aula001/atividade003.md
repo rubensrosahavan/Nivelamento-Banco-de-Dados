@@ -12,7 +12,7 @@ Crie uma tabela para armazenar clientes, contendo os seguintes dados:
 * Cidade e estado que reside
 * Endereço (rua, complemento, número, cep)
 
-Resposta:
+## Resposta:
     CREATE TABLE CLIENTE (
         COD_CADASTRO      INT             NOT NULL,
         NOME_CLIENTE      VARCHAR(255)    NOT NULL,
