@@ -1,0 +1,35 @@
+# Aula 001:
+
+## Introdução:
+Abordagem de conceitos introdutórios relacionados a bancos de dados relacionais.
+
+## Banco de Dados:
+* Coleção de informações estruturadas e que podem ser relacionadas.
+
+## Dados:
+* Registros de coisas.
+
+## Informação: 
+* É a contextualização dos dados/registros. É um dado que possuí alguma utilidade.
+
+## Sistema Operacional:
+* Abstração das interações com o hardware.
+
+## DBA: 
+* Administrador do Banco de Dados. Cuida da estrutura das tabelas, consultas, acessos, entre outros.
+
+## AD:
+* Administrador de Dados. É uma pessoa que conhece a estrutura de um banco de dados, realiza performance de consultas, porém não opera diretamente com a administração do banco de dados. 
+
+## Objeto:
+* Estrutura de dados que armazena ou faz referência a dados.
+
+## Instância X Servidor:
+### Instância: 
+* Gerencia os processos, memória cpu da máquina. Cada instância pode ter um propósito, e um banco de dados pode ter múltiplas instâncias.
+    * Servidor: armazenamento das informações. Parte física. 
+
+[Tipos de dados SQL Server](https://learn.microsoft.com/pt*br/sql/t*sql/data*types/data*types*transact*sql?view=sql*server*ver16)
+
+## Tipos de dados: 
+* Como a informação é armazenada em um sistema de computador.
