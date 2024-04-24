@@ -1,5 +1,7 @@
 # Aula 001:
 
+[Treinamento Básico T-SQL](https://learn.microsoft.com/pt-br/training/paths/get-started-querying-with-transact-sql/?source=learn)
+
 ## Introdução:
 Abordagem de conceitos introdutórios relacionados a bancos de dados relacionais.
 

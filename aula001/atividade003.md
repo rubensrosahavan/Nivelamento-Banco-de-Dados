@@ -13,17 +13,24 @@ Crie uma tabela para armazenar clientes, contendo os seguintes dados:
 * Endereço (rua, complemento, número, cep)
 
 ## Resposta:
-    CREATE TABLE CLIENTE (
-        COD_CADASTRO      INT             NOT NULL,
-        NOME_CLIENTE      VARCHAR(255)    NOT NULL,
-        DT_NASCIMENTO     DATE            NOT NULL,
-        CPF               VARCHAR(14)     NOT NULL,
-        CDD_NASCIMENTO    VARCHAR(255)    NOT NULL,
-        EST_NASCIMENTO    CHAR(2)         NOT NULL,
-        CDD_RESIDENCIA    VARCHAR(255)    NOT NULL,
-        EST_RESIDENCIA    CHAR(2)         NOT NULL,
-        RUA               VARCHAR(255)    NOT NULL,
-        COMPLEMENTO       VARCHAR(255)    NOT NULL,
-        NUMERO            SMALLINT        NOT NULL,
-        CEP               INT             NOT NULL,    
+    USE Havan
+    GO
+
+    DROP TABLE IF EXISTS Cliente
+    GO
+
+
+    CREATE TABLE Cliente (
+        Codigo             tinyint      NOT NULL
+      , Nome               varchar(256) NOT NULL
+      , DataNascimento     date         NOT NULL
+      , Cpf                varchar(14)  NOT NULL
+      , CidadeNascimento   varchar(256) NOT NULL
+      , EstadoNascimento   char(2)      NOT NULL
+      , CidadeResidencia   varchar(256) NOT NULL
+      , EstadoResidencia   char(2)      NOT NULL
+      , EndLogradouro      varchar(256) NOT NULL
+      , EndNumero          smallint     NOT NULL
+      , Cep                int          NOT NULL 
     );
+    GO
