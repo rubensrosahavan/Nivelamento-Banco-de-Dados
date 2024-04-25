@@ -19,5 +19,5 @@ Adicione uma nova tabela 'Cidade', contendo os campos Código e Nome, e insira 1
 		   (5, 'Ilhota'),
 		   (8, 'Timbó'),
 		   (9, 'Tijucas'),
-		   (10, 'Florinaópolis');
+		   (10, 'Florianópolis');
 	GO
