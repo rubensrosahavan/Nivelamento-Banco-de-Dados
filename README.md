@@ -1,5 +1,8 @@
 # Nivelamento Introdutório de Banco de Dados - HVN T1 IntDB
 
+### Repositório do Professor Flaviano com Scripts e material de ajuda
+[Link](https://github.com/fangeli0935/simple-shoes)
+
 ## Configurando o ambiente
 * Certifique-se de baixar e instalar adequadamente o SQL Server Express e a ferramenta do SSMS.
 
@@ -9,3 +12,6 @@
 
 ## Arquivos e diretórios
 [Aula 01](./aula001)
+[Aula 02](./aula002)
+[Aula 03](./aula003)
+[Aula 04](./aula004)
